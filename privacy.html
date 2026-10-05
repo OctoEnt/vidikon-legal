@@ -62,9 +62,9 @@
         <nav class="top"><a href="index.html">Vidikon</a><a href="terms.html">Terms of Use</a></nav>
 
         <h1>Vidikon Privacy Policy</h1>
-        <p class="last-updated">Last Updated: September 27, 2026</p>
+        <p class="last-updated">Last Updated: October 4, 2026</p>
 
-        <p class="intro-text">Vidikon ("Vidikon," "we," "us," or "our") is a media player for iPhone, iPad and Apple TV that plays television and video-on-demand catalogs from an IPTV provider that you choose and connect yourself. This Privacy Policy describes how we collect, use, store, share and protect your information when you use the Vidikon app and related services (the "Services"). It is incorporated by reference into our <a href="terms.html">Terms of Use</a>.</p>
+        <p class="intro-text">Vidikon is operated by Vladislav Zagorodnyuk ("Vidikon," "we," "us," or "our"). It is a media player for iPhone, iPad and Apple TV that plays television and video-on-demand catalogs from an IPTV provider that you choose and connect yourself. This Privacy Policy describes how we collect, use, store, share and protect your information when you use the Vidikon app and related services (the "Services"). It is incorporated by reference into our <a href="terms.html">Terms of Use</a>.</p>
 
         <div class="callout">
             <p><strong>The short version.</strong> Vidikon does not host, sell or recommend television content. You bring your own provider. To make that work we store your provider login on our servers, encrypted, so that the app can sync your catalog and build playback links on your behalf. We do not run advertising, we do not sell your data, and we do not use analytics trackers. The only telemetry we collect is crash and error reporting so we can fix bugs.</p>
@@ -111,6 +111,9 @@
         <h3>Downloads</h3>
         <p>Content you download for offline viewing is stored only on your device, in the app's own storage, excluded from device backups. We keep no server-side record of what you downloaded.</p>
 
+        <h3>Purchases</h3>
+        <p>vidikon Plus and tips are sold through Apple's App Store. Apple processes the payment; we never receive your card or billing details. When you buy or restore vidikon Plus, the app sends us Apple's signed transaction record so we can unlock Plus on all devices linked to your account. We store the original transaction identifier, the product, the purchase date, the expiry date for subscriptions, refund or revocation status, and whether the purchase is shared through Family Sharing, linked to your account. Apple also sends our servers notifications about renewals, expirations and refunds for these purchases. Tips are not recorded on our servers.</p>
+
         <h3>What we do not collect</h3>
         <p>We do not use advertising identifiers, analytics or attribution SDKs, location services, contacts, photos, microphone, health data or push notifications. We do not track you across other apps or websites.</p>
 
@@ -118,6 +121,7 @@
         <ul>
             <li><strong>To run the Services:</strong> authenticate you, sync and display your provider's catalog, build playback links, keep your watch progress and lists in sync across devices, and pair your Apple TV.</li>
             <li><strong>To enrich the catalog:</strong> we match the titles in your provider's catalog against The Movie Database (TMDB) to show posters, descriptions, cast and ratings. We send TMDB title names and identifiers, never your account or provider details.</li>
+            <li><strong>To provide vidikon Plus:</strong> verify App Store purchases and keep your Plus status in sync across your devices.</li>
             <li><strong>To keep the Services working:</strong> diagnose crashes and errors, monitor performance, and prevent abuse.</li>
             <li><strong>To communicate with you:</strong> respond to support requests sent to us, and notify you of material changes to the Services or these policies.</li>
             <li><strong>To comply with law:</strong> respond to lawful requests, enforce our Terms of Use, and protect the rights and safety of Vidikon and its users.</li>
@@ -134,6 +138,7 @@
             <tr><td>Bugsnag (SmartBear)</td><td>Crash and error reports as described above</td><td>Crash and error monitoring</td></tr>
             <tr><td>DigitalOcean (United States)</td><td>Catalog titles and TMDB identifiers; server logs with IP addresses</td><td>Hosting for the metadata enrichment service</td></tr>
             <tr><td>The Movie Database (TMDB)</td><td>Title names and identifiers from provider catalogs</td><td>Artwork, descriptions, cast and ratings</td></tr>
+            <tr><td>Apple (App Store)</td><td>Payment for vidikon Plus and tips; signed transaction and renewal records</td><td>In-app purchases</td></tr>
             <tr><td>Apple, Google, Discord</td><td>Your identity with that provider, when you choose to sign in with it</td><td>Optional account sign-in</td></tr>
         </table>
         <p>These providers are bound by contract to process data only on our instructions and for the purposes above.</p>
@@ -166,6 +171,7 @@
             <li>Your email, name and sign-in identities are removed and your login is disabled immediately.</li>
             <li>Your stored provider usernames and passwords are erased.</li>
             <li>Your watch progress, lists, reactions, paired devices and hand-added streams are deleted.</li>
+            <li>Purchase records are unlinked from your account. Because an App Store subscription continues until you cancel it with Apple, the unlinked record is kept so that restoring purchases can link it to a new account; cancel the subscription in your App Store account settings if you no longer want it.</li>
             <li>Your profile records and provider connection records are retained without credentials for a short period for integrity and abuse-prevention purposes, then removed.</li>
         </ul>
         <p>Catalog listings synced from a provider are shared reference data and are not tied to your account; they are refreshed and pruned on the provider's sync cycle and remain as long as any user is connected to that provider. Crash reports are retained by Bugsnag according to its retention settings and contain no direct identifiers. Encrypted backups of our database are rotated on a fixed cycle after which deleted data no longer exists in any copy.</p>
